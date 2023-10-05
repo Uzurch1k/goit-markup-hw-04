@@ -391,6 +391,7 @@ body {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-content {
   margin-right: 120px;
@@ -444,7 +445,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
 .footer-soc-icon {
