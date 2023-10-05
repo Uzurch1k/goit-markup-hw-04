@@ -95,6 +95,9 @@ body {
 /*----------------------------Header----------------------------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -148,15 +151,15 @@ body {
   width: 0;
   height: 4px;
   border-radius: 2px;
+  background-color: #404bbf;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   transition-property: width, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover::after {
   width: 100%;
-  background-color: #404bbf;
 }
 
 .header-contacts {
@@ -184,10 +187,10 @@ body {
 
 /*---------------------------- Section 1 ----------------------------*/
 .fullscreen {
-  background-color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
+  background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -197,7 +200,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .fullscreen-title {
   color: white;
   text-align: center;
@@ -327,7 +329,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #404bbf;
 }
 .team-soc-icon {
