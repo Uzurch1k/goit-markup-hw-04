@@ -231,7 +231,7 @@ body {
 }
 .fullscreen-btn:hover,
 .fullscreen-btn:focus {
-  background-color: var(--color-h-f);
+  background-color: #404bbf;
 }
 
 /*---------------------------- Section 2 ----------------------------*/
