@@ -185,8 +185,6 @@ body {
 /*---------------------------- Section 1 ----------------------------*/
 .fullscreen {
   background-color: #2e2f42;
-}
-.fullscreen-container {
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
@@ -199,6 +197,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
 .fullscreen-title {
   color: white;
   text-align: center;
@@ -360,11 +359,14 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.portfolio-item-container img:hover {
+  background-color: #4d5ae5;
+  overflow: hidden;
+}
 .portfolio-item {
   /* width: calc((100% - 48px) / 3); */
 }
 .portfolio-img {
-  background-color: #4d5ae5;
 }
 .portfolio-description {
   padding: 32px 16px;
