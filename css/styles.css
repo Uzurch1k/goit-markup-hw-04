@@ -143,7 +143,7 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--color-h-f);
+  color: #404bbf;
 }
 .header-menu-link::after {
   content: '';
@@ -231,7 +231,7 @@ body {
 }
 .fullscreen-btn:hover,
 .fullscreen-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--color-h-f);
 }
 
 /*---------------------------- Section 2 ----------------------------*/
