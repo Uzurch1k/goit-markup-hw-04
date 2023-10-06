@@ -190,30 +190,6 @@ body {
 }
 
 /*---------------------------- Section 1 ----------------------------*/
-.fullscreen-btn {
-  display: block;
-  color: white;
-  font-size: 16px;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  height: 56px;
-  min-width: 169px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border: none;
-  margin: 0 auto;
-  background-color: #4d5ae5;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
-.fullscreen-btn:hover,
-.fullscreen-btn:focus {
-  background-color: #404bbf;
-}
 .fullscreen {
   padding: 188px 0;
   max-width: 1440px;
@@ -237,6 +213,30 @@ body {
   text-align: center;
   max-width: 496px;
   margin: 0 auto 48px auto;
+}
+.fullscreen-btn {
+  display: block;
+  color: white;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  height: 56px;
+  min-width: 169px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  margin: 0 auto;
+  background-color: #4d5ae5;
+  /* transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fullscreen-btn:hover,
+.fullscreen-btn:focus {
+  background-color: #404bbf;
 }
 
 /*---------------------------- Section 2 ----------------------------*/
@@ -325,9 +325,10 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition-property: background-color;
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -353,9 +354,10 @@ body {
 }
 .portfolio-item {
   /* width: calc((100% - 48px) / 3); */
-  transition-property: box-shadow;
+  /* transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -377,9 +379,10 @@ body {
   top: 0;
   padding: 40px 32px;
   transform: translateY(100%);
-  transition-property: transform;
+  /* transition-property: transform;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .portfolio-img-text {
   transform: translateY(0%);
@@ -452,9 +455,10 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition-property: background-color;
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
