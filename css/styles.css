@@ -372,15 +372,18 @@ body {
 .portfolio-img-text {
   position: absolute;
   color: #f4f4fd;
-  /* max-width: 296px; */
   background-color: #4d5ae5;
-  top: 0;
   height: 100%;
   width: 100%;
-  padding: 40px 32px 0 32px;
+  top: 0;
+  padding: 40px 32px;
   transform: translateY(0%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-img-text:hover {
+  transform: translateY(100%);
 }
 .portfolio-description {
   padding: 32px 16px;
