@@ -120,13 +120,14 @@ body {
   margin-right: 76px;
 }
 .header-logo-span {
-  color: var(--color-text);
+  color: #2e2f42;
 }
 .header-menu-list {
   display: flex;
   gap: 40px;
 }
-.header-menu-item {
+.header-menu-item:first-child .header-menu-link {
+  color: #404bbf;
 }
 .header-menu-link {
   display: block;
