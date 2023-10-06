@@ -35,16 +35,10 @@ img {
 
 /*----------------------------Variables----------------------------*/
 :root {
-  --color-sub-title: #2e2f42;
   --color-text: #434455;
-  --color-logo: #4d5ae5;
   --color-footer-tx: #f4f4fd;
 
   --color-h-f: #404bbf;
-
-  --bgcolor-2e2f42: #2e2f42;
-  --bgcolor-f4f4fd: #f4f4fd;
-  --bgcolor-ffffff: #ffffff;
 }
 
 /*----------------------------Other----------------------------*/
@@ -74,6 +68,7 @@ body {
   overflow: hidden;
 }
 .title {
+  color: #2e2f42;
   font-size: 36px;
   text-transform: capitalize;
   line-height: 1.11;
@@ -81,6 +76,7 @@ body {
   text-align: center;
 }
 .subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -110,7 +106,7 @@ body {
   align-items: center;
 }
 .header-logo {
-  color: var(--color-logo);
+  color: #4d5ae5;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -125,6 +121,8 @@ body {
 .header-menu-list {
   display: flex;
   gap: 40px;
+}
+.header-menu-item {
 }
 .header-menu-item:first-child .header-menu-link {
   color: #404bbf;
@@ -265,11 +263,9 @@ body {
 .advantages-icon {
 }
 .advantages-subtitle {
-  color: var(--color-sub-title);
   margin-bottom: 8px;
 }
 .advantages-text {
-  color: var(--color-text);
 }
 
 /*---------------------------- Section 3 ----------------------------*/
@@ -278,7 +274,6 @@ body {
   padding: 120px 0;
 }
 .team-title {
-  color: var(--color-sub-title);
   margin-bottom: 72px;
 }
 .team-list {
@@ -301,12 +296,10 @@ body {
   padding: 32px 0;
 }
 .team-subtitle {
-  color: var(--color-sub-title);
   margin-bottom: 8px;
   text-align: center;
 }
 .team-text {
-  color: var(--color-text);
   text-align: center;
   margin-bottom: 8px;
 }
@@ -344,7 +337,6 @@ body {
   padding: 120px 0;
 }
 .portfolio-title {
-  color: var(--color-sub-title);
   margin-bottom: 72px;
 }
 .portfolio-list {
@@ -393,11 +385,9 @@ body {
   border-top: none;
 }
 .portfolio-subtitle {
-  color: var(--color-sub-title);
   margin-bottom: 8px;
 }
 .portfolio-text {
-  color: var(--color-text);
 }
 
 /*---------------------------- Footer ----------------------------*/
@@ -414,7 +404,7 @@ body {
 }
 .footer-logo {
   display: inline-block;
-  color: var(--color-logo);
+  color: #4d5ae5;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -424,7 +414,7 @@ body {
   margin-bottom: 16px;
 }
 .footer-logo-span {
-  color: var(--color-footer-tx);
+  color: #f4f4fd;
 }
 .footer-text {
   color: var(--color-footer-tx);
