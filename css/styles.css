@@ -215,6 +215,10 @@ body {
   margin: 0 auto 48px auto;
 }
 .fullscreen-btn {
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   color: white;
   font-size: 16px;
@@ -228,8 +232,8 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   margin: 0 auto;
-  background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .fullscreen-btn:hover,
 .fullscreen-btn:focus {
