@@ -124,9 +124,7 @@ body {
 }
 .header-menu-item {
 }
-.header-menu-item:first-child .header-menu-link {
-  color: #404bbf;
-}
+
 .header-menu-link {
   display: block;
   color: #2e2f42;
@@ -158,6 +156,14 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover::after {
+  width: 100%;
+}
+
+.current {
+  color: #404bbf;
+}
+.current::after {
+  content: '';
   width: 100%;
 }
 
