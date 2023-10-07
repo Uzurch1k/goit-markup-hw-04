@@ -152,7 +152,7 @@ body {
 }
 .header-menu-link:hover::after {
   width: 100%;
-} 
+}
 /*---------------------*/
 .current {
   color: #404bbf;
@@ -197,6 +197,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .fullscreen-container {
 }
